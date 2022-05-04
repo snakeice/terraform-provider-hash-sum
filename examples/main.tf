@@ -7,23 +7,18 @@ terraform {
   }
 }
 
-
-provider "hashsum" {
-
-}
-
 data "hashsum" "foo1" {
-  data = "pg-new-blueprint-1"
+  data = "fooa-1"
 }
 data "hashsum" "foo2" {
-  data = "pg-new-blueprint-2"
+  data = "fooz-2"
 }
 data "hashsum" "foo3" {
-  data = "pg-new-blueprint-3"
+  data = "foox-3"
 }
 
 data "hashsum" "foo4" {
-  data = "pg-new-blueprint-1"
+  data = "fooy-4"
 }
 
 output "foo1" {
