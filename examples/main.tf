@@ -1,8 +1,9 @@
 terraform {
   required_providers {
     hashsum = {
-      version = "0.2"
-      source  = "github.com/snakeice/hash-sum"
+
+      version = "0.2.5"
+      source  = "terraform-registry-bill.herokuapp.com/snakeice/hash-sum"
     }
   }
 }
